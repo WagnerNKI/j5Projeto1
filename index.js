@@ -28,7 +28,7 @@ board.on("ready", function() {
     });
 
     button.on ("hold",function(){
-        console.log("aberto");
+        console.log("hold");
     });
 
     button.on ("up",function(){
