@@ -7,7 +7,7 @@ board.on("ready", function() {
     var led = new five.Led(9);
     var servo = new five.Servo({    
         pin: 10, 
-        startAt: 10
+        startAt: 10 
     });
     var portaoAberto = false;
 
@@ -28,7 +28,7 @@ board.on("ready", function() {
     });
 
     button.on ("hold",function(){
-        console.log("hold");
+        console.log("aberto");
     });
 
     button.on ("up",function(){
